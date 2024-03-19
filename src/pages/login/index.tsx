@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { CinBackground } from '../../../public/assets';
 import { BackgroundContainer, ButtonContainer, Content, LoginContainer, Title } from './styles';
 import Input from '@/components/Input';
-import MainButton from '@/components/Input/Button';
+import MainButton from '@/components/Button';
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');

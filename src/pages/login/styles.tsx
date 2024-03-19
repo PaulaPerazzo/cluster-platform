@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
-
 export const BackgroundContainer = styled.div`
   height: 100vh;
   background-image: url('/assets/cin.png');
@@ -43,3 +40,11 @@ export const ButtonContainer = styled.div`
   align-items: flex-end;
   margin-top: 20px;
 `;
+
+export default function Hello() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  )
+}
